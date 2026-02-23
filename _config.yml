@@ -42,19 +42,10 @@ menu:
 toc: true
 paginate: 10
 
-# ------------------ Commentaires ------------------
+# ------------------ Commentaires ------------------ 
+# On en a pas besoin pour l'instant : 
 comments:
-  provider: giscus
-  giscus:
-    repo: thewardenmaker/opium
-    repo_id: ""
-    category: ""
-    category_id: ""
-    mapping: pathname
-    strict: 0
-    input_position: bottom
-    lang: fr
-    reactions_enabled: 1
+  provider: 
 
 # ------------------ PWA ------------------
 pwa:

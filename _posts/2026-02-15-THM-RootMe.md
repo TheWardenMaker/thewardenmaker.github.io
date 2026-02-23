@@ -7,7 +7,7 @@ image: /assets/img/writeups/rootme/rootme.png
 ---
 
 ### Introduction
-Cette room proposée sur TryHackMe s’inscrit dans une démarche classique de test d’intrusion. L’objectif est d’aboutir à la compromission complète du système, en démontrant la chaîne d’attaque depuis la phase d’énumération jusqu’à l’élévation de privilèges.
+La room [RootMe](https://tryhackme.com/room/rrootme) proposée sur TryHackMe s’inscrit dans une démarche classique de test d’intrusion. L’objectif est d’aboutir à la compromission complète du système, en démontrant la chaîne d’attaque depuis la phase d’énumération jusqu’à l’élévation de privilèges.
 
 --- 
 ### Phase d’énumération
@@ -146,7 +146,7 @@ J’ai donc testé plusieurs extensions alternatives afin de contourner le filtr
 - [x] **phtml**
 - [ ] php%00.jpg
 
-> **php%00.jpg est un étrange extension !**    
+> **php%00.jpg est une étrange extension !**    
     Le `%00` correspond à l’encodage URL du null byte (\x00), autrefois utilisé pour tronquer le nom du fichier côté serveur 
     et contourner certains filtres d’extensions (ex. `php%00.jpg` sera interprété comme `php`).
 
