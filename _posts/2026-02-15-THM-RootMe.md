@@ -2,7 +2,7 @@
 title: "CTF - RootMe"
 date: 2026-02-19
 categories: [tryhackme]
-tags: [webexploitation,privilege-escalation,revershell,php,SUID]
+tags: [webexploitation,privilege-escalation,revershell,php,SUID,python]
 image: /assets/img/writeups/rootme/rootme.png
 ---
 
