@@ -286,11 +286,10 @@ l’option `-p`, ce qui **permet de conserver les privilèges SUID (root)** et d
 ### Conclusion
 Ce challenge met en évidence :
 - L'importance de la validation sécurisée des uploads
-    - par exemple, on aurait pu **réaliser un filtrage basé sur une "whitelist" complète** plutôt que sur une "blacklist" incomplète
+    - Par exemple, on aurait pu **réaliser un filtrage basé sur une "whitelist" complète** plutôt que sur une "blacklist" incomplète
 - Les dangers des binaires SUID mal configurés  
-    - on aurait également pu supprimer le bit SUID des binaires non essentiels, 
+    - On aurait également pu supprimer le bit SUID des binaires non essentiels, 
       et **appliquer le principe de moindre privilège**  
 - L’importance d’une méthodologie rigoureuse en test d’intrusion  
 
 Une simple faille d’upload combinée à une mauvaise configuration SUID a permis la compromission complète du système.
-
